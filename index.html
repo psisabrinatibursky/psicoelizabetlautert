@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Elizabet Lautert - Psicóloga Clínica</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Poppins:wght@300;400;500;600;700&family=Roboto+Slab:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- CABEÇALHO FIXO -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">
+        <img src="imagens/logo.png" alt="Elizabet Lautert - Psicóloga">
+      </a>
+
+      <!-- Botão Hambúrguer (Mobile) -->
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <!-- Navegação -->
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-links">
+          <li><a href="index.html" class="active nav-underline">Home</a></li>
+          <li><a href="sobre-mim.html">Sobre mim</a></li>
+          <li class="dropdown">
+            <a href="index.html#servicos" class="dropdown-toggle">Psicoterapia <span class="arrow">⌄</span></a>
+            <ul class="dropdown-menu">
+              <li><a href="individual.html">Individual</a></li>
+              <li><a href="grupos.html">Grupos</a></li>
+            </ul>
+          </li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+
+        <!-- Ícones Instagram e LinkedIn no Header -->
+        <div class="header-socials" aria-label="Redes sociais">
+          <a href="https://www.instagram.com/elizabet.lautert.psi/" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="2" width="20" height="20" rx="5"/>
+              <circle cx="12" cy="12" r="4"/>
+              <circle cx="17.5" cy="6.5" r="1"/>
+            </svg>
+          </a>
+          <a href="https://www.linkedin.com/in/elizabetlautert/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8h4V23h-4V8zm7.5 0h3.8v2.05h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V23h-4v-7.8c0-1.86-.03-4.25-2.59-4.25-2.59 0-2.99 2.02-2.99 4.11V23h-4V8z"/>
+            </svg>
+          </a>
+        </div>
+
+        <a href="https://wa.me/message/DOG7KBY77LQ3I1" target="_blank" rel="noopener" class="btn-nav-cta">
+          Fale comigo
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+<!-- 1. SEÇÃO HERO -->
+    <section class="hero-section" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-image">
+          <img src="imagens/foto-hero.jpg" alt="Psicóloga Elizabet Lautert">
+        </div>
+        <div class="hero-content">
+          <h1 class="script-title hero-name">Elizabet Lautert</h1>
+          <p class="crp-code">CRP 06/70718</p>
+          <p class="hero-role">
+            Psicóloga clínica especialista em<br>
+            saúde e trabalho
+          </p>
+          <p class="hero-approach">Abordagem Psicodinâmica</p>
+          <p class="hero-invite">
+            Refletir, ressignificar, escolher.<br>
+            A psicoterapia é sobre seu caminhar.
+          </p>
+          <a href="https://wa.me/message/DOG7KBY77LQ3I1" target="_blank" rel="noopener" class="btn-outline-coral hero-btn">
+            Fale comigo
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. SEÇÃO SEJA BEM-VINDA(O) -->
+    <section class="welcome-section">
+      <div class="container container-narrow">
+        <h2 class="welcome-title">Seja bem-vinda(o)!</h2>
+        <div class="coral-banner">
+          <p>
+            Buscar apoio psicológico é um ato de responsabilidade consigo mesmo. Em meio às exigências da vida pessoal e profissional, a psicoterapia oferece um espaço confidencial para reflexão, fortalecimento emocional e tomada de decisões mais conscientes
+ Aqui, você encontrará escuta qualificada, sensível e ética, voltada à compreensão das suas vivências com profundidade.
+ Este pode ser um ponto de apoio sólido para quem busca equilíbrio diante de desafios e transições.
+          </p>
+        </div>
+        <div class="center-action">
+          <a href="https://wa.me/message/DOG7KBY77LQ3I1" target="_blank" rel="noopener" class="btn-outline-dark">
+            Agendar sua sessão
+          </a>
+        </div>
+      </div>
+    </section>
+
+<!-- 3. SEÇÃO OLÁ SOU ELIZABET LAUTERT -->
+    <section class="about-preview-section" id="sobre">
+      <div class="container about-grid">
+        <div class="about-text">
+          <h2 class="about-heading">
+            <span class="hello-label">Olá, sou</span>
+            <span class="script-title about-name">Elizabet Lautert</span>
+          </h2>
+          <p class="about-subtitle">
+            Psicóloga clínica, do trabalho e facilitadora de grupos terapêuticos
+          </p>
+          <p class="about-bio">
+          Doutora em Ciências (USP), com especialização em Saúde e Trabalho (HC-FMUSP), atuo há mais de 20 anos no cuidado da saúde emocional de adultos em contextos profissionais exigentes. Além de psicóloga clínica, sou professora universitária e palestrante, unindo escuta qualificada e prática para promover equilíbrio e fortalecimento psíquico em tempos de transição e alta demanda.
+		  </p>
+          <div class="center-action">
+            <a href="https://wa.me/message/DOG7KBY77LQ3I1" target="_blank" rel="noopener" class="btn-outline-coral about-btn">
+              Entre em contato
+            </a>
+          </div>
+        </div>
+        <div class="about-image">
+          <img src="imagens/foto-sobre.jpg" alt="Elizabet Lautert no consultório">
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. SEÇÃO COMO POSSO TE AJUDAR? -->
+    <section class="help-section" id="como-ajudar">
+      <div class="container">
+        <h2 class="section-title-coral">Como posso te ajudar?</h2>
+        <div class="help-grid">
+          <div class="help-image">
+            <img src="imagens/foto-ajuda.jpg" alt="Como posso te ajudar" class="img-leaf-left">
+          </div>
+
+          <div class="help-cards">
+            <!-- Card 1 -->
+            <div class="coral-card">
+              <h3>Vida profissional e saúde do trabalhador</h3>
+              <p>
+                O trabalho pode ser fonte de realização ou adoecimento. Quando o ambiente profissional gera sofrimento, surgem sintomas como esgotamento, insatisfação e dúvida sobre si mesmo. O trabalho, ou a falta dele, afetam a saúde do indivíduo como um todo, tanto a saúde mental, quanto a saúde física.
+A psicoterapia oferece suporte para ressignificar experiências e retomar o protagonismo da sua trajetória.
+</p>
+<p>
+Principais demandas:
+</p>
+              <ul>
+                <li>Reorientação de carreira;</li>
+                <li>Transição profissional;</li>
+                <li>Dificuldade para equilibrar vida pessoal e profissional</li>
+              </ul>
+              <div class="card-action">
+                <a href="#questoes" class="btn-outline-white">Saiba mais</a>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="coral-card">
+              <h3>Autoconhecimento e questões emocionais</h3>
+              <p>
+              Explorar sua história emocional permite entender os padrões que influenciam seu dia a dia, suas escolhas e relações. O processo psicoterapêutico amplia sua consciência, fortalece sua autonomia e cria espaço para decisões mais alinhadas aos seus desejos.  
+				</p>
+              <div class="card-action">
+                <a href="#questoes" class="btn-outline-white">Saiba mais</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. SEÇÃO QUESTÕES QUE COSTUMAM APARECER NO CONSULTÓRIO -->
+    <section class="issues-section" id="questoes">
+      <div class="container">
+        <h2 class="section-title-dark">Questões que costumam aparecer no consultório</h2>
+        <p class="section-subtitle">
+          Por trás de uma trajetória profissional bem-sucedida, podem existir conflitos, inseguranças e experiências emocionais que que precisam ser elaborados.
+		  </p>
+		  <p class="section-subtitle">
+		  Se você frequentemente precisa sustentar decisões, administrar conflitos, corresponder a expectativas e lidar com responsabilidades que ultrapassam o ambiente de trabalho, a psicoterapia pode ser o espaço ideal para você.
+		  </p>
+
+        <div class="issues-grid">
+          <!-- Quadrante 1 -->
+          <div class="issue-box">
+            <div>
+              <h3>Autocobrança e necessidade de corresponder às expectativas</h3>
+              <p>
+                Você é reconhecido pela sua competência, entrega resultados e costuma ser uma referência para outras pessoas. Ainda assim, sente que nunca fez o suficiente?
+</p>
+<p>
+Pode existir uma exigência interna constante de acertar, antecipar problemas e demonstrar competência, mesmo quando ninguém está cobrando diretamente.
+</p>
+<p>
+Na psicoterapia, investigamos como essa necessidade de corresponder às expectativas foi construída, quais conflitos ela mobiliza e como interfere na sua relação com o trabalho e consigo mesmo.
+</p>
+            </div>
+            <div class="card-action">
+              <a href="https://wa.me/message/DOG7KBY77LQ3I1" target="_blank" rel="noopener" class="btn-outline-dark btn-sm">Saiba mais</a>
+            </div>
+          </div>
+
+          <!-- Quadrante 2 -->
+          <div class="issue-box">
+            <div>
+              <h3>Esgotamento emocional e perda de sentido no trabalho</h3>
+			  <p>
+Você conquistou uma posição profissional importante, mas percebe que o trabalho passou a ocupar um espaço cada vez maior na sua vida?
+</p><p>
+Pode existir uma sensação de esgotamento, irritabilidade, dificuldade de se desligar das responsabilidades ou questionamentos sobre o sentido da trajetória que construiu.
+</p><p>
+Na psicoterapia, buscamos compreender o que essa experiência representa na sua história, quais conflitos podem estar associados a ela e que outras possibilidades de relação com o trabalho e com a própria vida podem ser construídas.
+            </p></div>
+            <div class="card-action">
+              <a href="https://wa.me/message/DOG7KBY77LQ3I1" target="_blank" rel="noopener" class="btn-outline-dark btn-sm">Saiba mais</a>
+            </div>
+          </div>
+
+          <!-- Quadrante 3 -->
+          <div class="issue-box">
+            <div>
+              <h3>Conflitos profissionais, relações de autoridade e dificuldade de estabelecer limites</h3>
+<p>Você tem dificuldade de discordar de superiores, confrontar determinadas pessoas ou estabelecer limites com sua equipe?
+</p><p>
+Talvez assuma responsabilidades que não deveriam ser exclusivamente suas, evite conflitos importantes ou sinta culpa quando precisa dizer não.
+</p><p>
+Na perspectiva psicodinâmica, investigamos como sua história e suas experiências relacionais participam da maneira como você se posiciona diante da autoridade, dos conflitos e das relações profissionais.
+</p>            </div>
+            <div class="card-action">
+              <a href="https://wa.me/message/DOG7KBY77LQ3I1" target="_blank" rel="noopener" class="btn-outline-dark btn-sm">Saiba mais</a>
+            </div>
+          </div>
+
+          <!-- Quadrante 4 -->
+          <div class="issue-box">
+            <div>
+              <h3>Solidão e dificuldade de demonstrar vulnerabilidade</h3>
+              <p>
+Quanto mais alta a posição que você ocupa, maior a exigência de uma postura que transmita segurança. Na psicoterapia, existe um espaço de escuta no qual você não precisa ocupar o lugar de quem sabe, decide ou resolve. É possível falar sobre suas experiências sem precisar sustentar uma imagem de competência permanente.</p>
+            </div>
+            <div class="card-action">
+              <a href="https://wa.me/message/DOG7KBY77LQ3I1" target="_blank" rel="noopener" class="btn-outline-dark btn-sm">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+
+        <p class="issues-closing">
+          Sua trajetória profissional conta uma parte da sua história.<br>Mas você é muito mais do que o cargo que ocupa, as decisões que toma e os resultados que entrega.</p>
+      </div>
+    </section>
+
+    <!-- 6. SEÇÃO O QUE PODE MUDAR AO LONGO DA PSICOTERAPIA -->
+    <section class="changes-section" id="mudancas">
+      <div class="container container-medium">
+        <h2 class="section-title-coral">O que pode mudar ao longo da psicoterapia</h2>
+
+        <p class="lead-bold">
+          Cada trajetória psicoterapêutica é atravessada por experiências, responsabilidades, relações e desafios singulares.
+        </p>
+        <p>
+          O trabalho pode envolver muito mais do que decisões e entregas. Pode também mobilizar conflitos internos, exigências constantes, expectativas externas e formas de se relacionar consigo mesmo e com os outros.
+</p><p>
+Ao longo da psicoterapia, é possível desenvolver uma compreensão mais profunda sobre esses aspectos e construir novas possibilidades de lidar com a vida profissional e pessoal.
+</p>
+
+        <p class="list-intro">Algumas mudanças que podem surgir ao longo desse processo:</p>
+        <ul class="changes-list">
+          <li>Reconhecer padrões emocionais que se repetem nas relações profissionais e pessoais;</li>
+          <li>Compreender a necessidade de corresponder às expectativas dos outros e como isso influencia suas escolhas;</li>
+          <li>Desenvolver uma relação mais consciente com a autocobrança e a exigência por resultados;</li>
+          <li>Identificar os conflitos internos que dificultam decisões importantes;</li>
+          <li>Reconhecer limites pessoais sem vivenciá-los necessariamente como fracasso ou incapacidade;</li>
+          <li>Compreender como experiências anteriores influenciam a maneira de exercer a liderança e lidar com figuras de autoridade;</li>
+          <li>Construir relações profissionais mais conscientes, preservando a própria individualidade;</li>
+          <li>Desenvolver maior clareza sobre suas necessidades, desejos e escolhas para além das exigências do trabalho.</li>
+        </ul>
+
+        <p>
+         Essas transformações não acontecem de maneira imediata ou seguem uma fórmula pronta. São construídas gradualmente, a partir da escuta, da elaboração dos conflitos e da compreensão da própria história. 
+		  </p>
+		  <p class="lead-bold">
+		  A psicoterapia não precisa ensinar você a suportar ainda mais. Ela pode ajudar a compreender o que está por trás daquilo que você vem sustentando.
+		  </p>
+
+        <div class="center-action">
+          <a href="https://wa.me/message/DOG7KBY77LQ3I1" target="_blank" rel="noopener" class="btn-outline-dark">
+            Tire suas dúvidas
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. SEÇÃO SERVIÇOS DE PSICOLOGIA -->
+    <section class="services-section" id="servicos">
+      <div class="container">
+        <h2 class="section-title-dark">Serviços de Psicologia</h2>
+        <p class="section-subtitle">
+          Apoio psicológico online para indivíduos e grupos, promovendo saúde mental e bem-estar emocional.
+        </p>
+
+        <div class="services-showcase">
+          <!-- Card Esquerdo (Alinhado ao topo) -->
+          <div class="peach-service-card card-top">
+            <h3>Psicoterapia Individual</h3>
+            <p>
+              Acompanhamento psicológico, focado no fortalecimento emocional e na clareza para decisões pessoais e profissionais.
+Atendimento sigiloso, personalizado e voltado ao autoconhecimento e enfrentamento de desafios da vida adulta.
+</p>
+            <div class="card-action">
+              <a href="individual.html" class="btn-outline-dark btn-sm">Saiba mais</a>
+            </div>
+          </div>
+
+          <!-- Foto Central com Recorte Diagonal -->
+          <div class="services-image">
+            <img src="imagens/foto-servicos.jpg" alt="Atendimento psicológico online e presencial" class="img-leaf-right">
+          </div>
+
+          <!-- Card Direito (Alinhado à base) -->
+          <div class="peach-service-card card-bottom">
+            <h3>Grupos Terapêuticos</h3>
+            <p>
+              Espaço seguro de escuta, troca e crescimento emocional, com mediação especializada.
+Grupos com foco em apoio mútuo, pertencimento e desenvolvimento de habilidades emocionais e relacionais.
+</p>
+            <div class="card-action">
+              <a href="grupos.html" class="btn-outline-dark btn-sm">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 8. RODAPÉ (EXATAMENTE IGUAL À IMAGEM) -->
+  <footer class="footer" id="contato">
+    <div class="container footer-container">
+      <!-- Aviso de Emergência Centralizado no Topo -->
+      <div class="footer-disclaimer">
+        <p>Atenção: Este site não oferece atendimento imediato à pessoas em crises sob risco de vida.</p>
+        <p>Em caso de crise, ligue para o CVV - Disque 188</p>
+        <p class="footer-emergency-line">Em caso de emergência, procure o hospital mais próximo. Havendo risco à vida, ligue imediatamente para o SAMU (tel 192)</p>
+      </div>
+
+      <!-- Grade Inferior em 3 Colunas -->
+      <div class="footer-grid">
+        <!-- Coluna Esquerda: Ícones sociais + Nome, CRP e Copyright -->
+        <div class="footer-col-left">
+          <div class="footer-socials">
+            <a href="https://www.instagram.com/elizabet.lautert.psi/" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="20" rx="5"/>
+                <circle cx="12" cy="12" r="4"/>
+                <circle cx="17.5" cy="6.5" r="1"/>
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/elizabetlautert/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8h4V23h-4V8zm7.5 0h3.8v2.05h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V23h-4v-7.8c0-1.86-.03-4.25-2.59-4.25-2.59 0-2.99 2.02-2.99 4.11V23h-4V8z"/>
+              </svg>
+            </a>
+          </div>
+
+          <div class="footer-info">
+            <p>Maria Elizabet Lautert de Souza | Psicóloga Clínica</p>
+            <p>CRP 06/70718</p>
+            <p>© 2027. Todos os direitos reservados.</p>
+          </div>
+        </div>
+
+        <!-- Coluna Central: Botão Fale comigo -->
+        <div class="footer-col-center">
+          <a href="https://wa.me/message/DOG7KBY77LQ3I1" target="_blank" rel="noopener" class="btn-footer-cta">
+            Fale comigo
+          </a>
+        </div>
+
+        <!-- Coluna Direita: E-mail e Telefone -->
+        <div class="footer-col-right">
+          <p><a href="mailto:elizabet.lautert@gmail.com">elizabet.lautert@gmail.com</a></p>
+          <p><a href="hhttps://wa.me/message/DOG7KBY77LQ3I1" target="_blank" rel="noopener">+55 (11) 991592199</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- BOTÃO FLUTUANTE WHATSAPP -->
+  <a href="https://wa.me/message/DOG7KBY77LQ3I1" target="_blank" rel="noopener" class="whatsapp-float" aria-label="Conversar no WhatsApp" title="Fale comigo no WhatsApp">
+    <svg viewBox="0 0 32 32" width="28" height="28" fill="#ffffff">
+      <path d="M16.004 3.2c-7.06 0-12.8 5.74-12.8 12.8 0 2.256.59 4.458 1.71 6.398L3.1 29.02l6.8-1.784a12.74 12.74 0 0 0 6.104 1.556h.006c7.058 0 12.796-5.74 12.796-12.8 0-3.42-1.332-6.636-3.75-9.054A12.716 12.716 0 0 0 16.004 3.2zm0 23.432h-.004a10.61 10.61 0 0 1-5.408-1.48l-.388-.23-4.034 1.058 1.076-3.932-.252-.402a10.59 10.59 0 0 1-1.626-5.646c0-5.864 4.772-10.636 10.64-10.636 2.84 0 5.51 1.108 7.518 3.118a10.566 10.566 0 0 1 3.114 7.522c0 5.864-4.772 10.628-10.636 10.628zm5.834-7.964c-.32-.16-1.892-.934-2.186-1.04-.294-.106-.508-.16-.72.16-.214.32-.826 1.04-1.014 1.254-.186.214-.374.24-.694.08-.32-.16-1.35-.498-2.572-1.588-.95-.848-1.592-1.896-1.778-2.216-.186-.32-.02-.494.14-.652.144-.144.32-.374.48-.56.16-.188.214-.32.32-.534.106-.214.054-.4-.026-.56-.08-.16-.72-1.734-.986-2.374-.26-.624-.524-.54-.72-.55l-.614-.01c-.214 0-.56.08-.854.4-.294.32-1.12 1.094-1.12 2.668s1.146 3.094 1.306 3.308c.16.214 2.256 3.444 5.466 4.83.764.33 1.36.526 1.824.674.766.244 1.464.21 2.016.126.614-.092 1.892-.774 2.158-1.52.266-.748.266-1.388.186-1.52-.08-.134-.294-.214-.614-.374z"/>
+    </svg>
+  </a>
+
+  <!-- SCRIPT PARA MENU MOBILE E DROPDOWN -->
+  <script>
+    const menuToggle = document.getElementById('menuToggle');
+    const navMenu = document.getElementById('navMenu');
+    const dropdown = document.querySelector('.dropdown');
+
+    menuToggle.addEventListener('click', () => {
+      const isOpen = navMenu.classList.toggle('active');
+      menuToggle.classList.toggle('open');
+      menuToggle.setAttribute('aria-expanded', isOpen);
+    });
+
+    // Fechar menu ao clicar em um link no celular
+    document.querySelectorAll('.nav-links a:not(.dropdown-toggle)').forEach(link => {
+      link.addEventListener('click', () => {
+        navMenu.classList.remove('active');
+        menuToggle.classList.remove('open');
+        menuToggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+
+    // Abrir submenu "Psicoterapia" no toque em telas menores
+    dropdown.querySelector('.dropdown-toggle').addEventListener('click', (e) => {
+      if (window.innerWidth <= 920) {
+        e.preventDefault();
+        dropdown.classList.toggle('open');
+      }
+    });
+	
+	document.addEventListener("DOMContentLoaded", () => {
+  const selectors = [
+    "section h1",
+    "section h2",
+    "section p",
+    "section ul",
+    "section .coral-banner",
+    "section .coral-card",
+    "section .issue-box",
+    "section .peach-service-card",
+    "section .approach-coral-box",
+    "section .faq-peach-box",
+    "section .hero-image",
+    "section .about-image",
+    "section .about-page-photo",
+    "section .help-image",
+    "section .services-image",
+    "section .indiv-hero-image",
+    "section .grupos-hero-image",
+    "section .education-image",
+    "section .center-action",
+    "section .approach-action",
+    "section .faq-action",
+    "section .education-action",
+    "section .contact-page-action",
+    ".hero-btn",
+    ".about-page-hero .btn-outline-coral",
+    ".indiv-hero-text .btn-outline-coral",
+    ".grupos-hero-text .btn-outline-coral",
+    ".contact-page-socials",
+    ".contact-page-details",
+    ".footer-disclaimer",
+    ".footer-col-left",
+    ".footer-col-center",
+    ".footer-col-right"
+  ];
+
+  // Evita animar textos/botões duplamente quando já estão dentro de um card
+  const elements = Array.from(document.querySelectorAll(selectors.join(", "))).filter(
+    (el) =>
+      !el.parentElement.closest(
+        ".coral-banner, .coral-card, .issue-box, .peach-service-card, .approach-coral-box, .faq-peach-box"
+      )
+  );
+
+  elements.forEach((el) => el.classList.add("reveal-up"));
+
+  const observer = new IntersectionObserver(
+    (entries, obs) => {
+      let visibleIndex = 0;
+
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+
+        const delay = Math.min(visibleIndex * 75, 300);
+        entry.target.style.transitionDelay = `${delay}ms`;
+        entry.target.classList.add("is-visible");
+
+        // Limpa o delay após a entrada para não atrasar efeitos de hover
+        setTimeout(() => {
+          entry.target.style.transitionDelay = "";
+        }, 650 + delay);
+
+        obs.unobserve(entry.target);
+        visibleIndex++;
+      });
+    },
+    {
+      threshold: 0.12,
+      rootMargin: "0px 0px -35px 0px"
+    }
+  );
+
+  elements.forEach((el) => observer.observe(el));
+});
+  </script>
+</body>
+</html>
